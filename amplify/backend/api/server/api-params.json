@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/api",
+            "lambdaFunction": "server",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/api"
+        }
+    ],
+    "resourceName": "server",
+    "apiName": "server",
+    "functionArns": [
+        {
+            "lambdaFunction": "server"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-ubcsharp-dev-101048-authRole",
+        "unAuthRoleName": "amplify-ubcsharp-dev-101048-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "server",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

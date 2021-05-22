@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>server</name>
+    </assembly>
+    <members>
+        <member name="M:server.Controllers.DashboardController.GetDashboardStatistics">
+            <summary>
+            Get autosuggestion for a given search string
+            </summary>
+        </member>
+        <member name="M:server.Controllers.LocationCompaniesController.GetLocationCompanies">
+            <summary>
+            Get all companies, locations and offices
+            </summary>
+        </member>
+        <member name="M:server.Controllers.LocationOfficesController.GetNumberOfOffices">
+            <summary>
+            Get the total number of offices
+            </summary>
+        </member>
+        <member name="M:server.Controllers.LocationPhysicalsController.GetLocationPhysicals">
+            <summary>
+            Get all physical locations
+            </summary>
+        </member>
+        <member name="M:server.Controllers.OrgChartController.GetWorkerTree(System.String)">
+            <summary>
+            Get worker tree
+            </summary>
+        </member>
+        <member name="M:server.Controllers.OrgChartController.GetWorkerSmallTree(System.String)">
+            <summary>
+            Get worker tree
+            </summary>
+        </member>
+        <member name="M:server.Controllers.OrgChartController.GetFilteredWorkerTree(server.Dto.FilteredTreeQuery)">
+            <summary>
+            Get worker tree
+            </summary>
+        </member>
+        <member name="M:server.Controllers.OrgChartController.GetFilteredWorkerTreeSingle(System.String)">
+            <summary>
+            Get worker tree
+            </summary>
+        </member>
+        <member name="M:server.Controllers.SearchController.Autosuggestion(System.String,System.String)">
+            <summary>
+            Get autosuggestion for a given search string
+            </summary>
+        </member>
+        <member name="M:server.Controllers.SearchController.CreateSearchIndex">
+            <summary>
+            Combine all data into a single search index
+            </summary>
+        </member>
+        <member name="M:server.Controllers.WorkersController.GetWorkers(System.Int32,System.Int32,System.String)">
+            <summary>
+            Get all workers
+            </summary>
+        </member>
+        <member name="M:server.Controllers.WorkersController.GetFilteredWorkers(server.Dto.GetWorkersQuery,System.Int32,System.Int32,System.String)">
+            <summary>
+            Get all workers that match given criteria
+            </summary>
+        </member>
+        <member name="M:server.Controllers.WorkersController.GetWorker(System.String)">
+            <summary>
+            Get a worker by id
+            </summary>
+        </member>
+        <member name="M:server.Controllers.WorkersController.PutWorker(System.String,server.Dto.CreateWorkerDto)">
+            <summary>
+            Update a worker
+            </summary>
+        </member>
+        <member name="M:server.Controllers.WorkersController.PostWorker(server.Dto.CreateWorkerDto)">
+            <summary>
+            Create a worker
+            </summary>
+        </member>
+        <member name="M:server.Controllers.WorkersController.DeleteWorker(System.String)">
+            <summary>
+            Delete a worker
+            </summary>
+        </member>
+        <member name="M:server.Controllers.WorkersController.UpdateTestData">
+            <summary>
+            Update a worker
+            </summary>
+        </member>
+        <member name="T:server.LambdaEntryPoint">
+            <summary>
+            This class extends from APIGatewayProxyFunction which contains the method FunctionHandlerAsync which is the 
+            actual Lambda function entry point. The Lambda handler field should be set to
+            
+            server::server.LambdaEntryPoint::FunctionHandlerAsync
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:server.LambdaEntryPoint.Init(Microsoft.AspNetCore.Hosting.IWebHostBuilder)" -->
+        <member name="M:server.LambdaEntryPoint.Init(Microsoft.Extensions.Hosting.IHostBuilder)">
+            <summary>
+            Use this override to customize the services registered with the IHostBuilder. 
+            
+            It is recommended not to call ConfigureWebHostDefaults to configure the IWebHostBuilder inside this method.
+            Instead customize the IWebHostBuilder in the Init(IWebHostBuilder) overload.
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="T:server.LocalEntryPoint">
+            <summary>
+            The Main function can be used to run the ASP.NET Core application locally using the Kestrel webserver.
+            </summary>
+        </member>
+    </members>
+</doc>

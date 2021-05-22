@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\amplify",
+    "\\amplify\\backend",
+    "\\amplify\\backend\\api",
+    "\\amplify\\backend\\api\\server",
+    "\\amplify\\backend\\function",
+    "\\amplify\\backend\\function\\server",
+    "\\amplify\\backend\\function\\server\\src"
+  ],
+  "SelectedNode": "\\amplify\\backend\\function\\server\\src\\server.csproj",
+  "PreviewInSolutionExplorer": false
+}
